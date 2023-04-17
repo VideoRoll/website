@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import feature1 from "../assets/images/feature1.gif";
 import feature2 from "../assets/images/feature2.gif";
 import feature3 from "../assets/images/feature3.gif";
-import feature4 from "../assets/images/feature4.jpg";
+import feature4 from "../assets/images/feature4.gif";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
 export const Features1 = () => {
@@ -52,44 +52,28 @@ export const Features1 = () => {
 							</div>
 							<div className="py-3 pl-3 pr-2 rounded ">
 								<img
-									src={feature1}
+									src={feature2}
 									alt="f2"
 									className="rounded-xl bg-[#303136] custom-border-gray mx-auto sm:mx-unset"
 								/>
 							</div>
 						</div>
-						<div className="mb-8 lg:mb-0 w-full sm:w-1/2 px-2 lg:px-0">
+						<div className="md:mt-10 mb-8 lg:mb-0 w-full sm:w-1/2 px-2 lg:px-0">
 							<div className="mb-4 py-3 pl-3 pr-2 rounded">
 								<img
-									src={feature2}
+									src={feature3}
 									alt="f3"
 									className="rounded-xl bg-[#303136] custom-border-gray mx-auto sm:mx-unset"
 								/>
 							</div>
-							<div className="py-3 pl-3 pr-2 rounded ">
+							<div className="py-3 pl-3 pr-2 rounded relative">
 								<img
-									src={feature1}
+									src={feature4}
 									alt="f4"
 									className="rounded-xl bg-[#303136] custom-border-gray mx-auto sm:mx-unset"
 								/>
 							</div>
 						</div>
-						{/* <div className="w-1/2 lg:mt-20  pt-12 lg:pt-0 px-2 sm:inline-block">
-							<div className="mb-4 py-3 pl-3 pr-2 rounded-lg ">
-								<img
-									src={feature3}
-									alt="f3"
-									className="rounded-xl  custom-border-gray"
-								/>
-							</div>
-							<div className="py-3 pl-3 pr-2 rounded-lg ">
-								<img
-									src={feature4}
-									alt="f4"
-									className="rounded-xl  custom-border-gray"
-								/>
-							</div>
-						</div> */}
 					</div>
 				</div>
 			</motion.div>
