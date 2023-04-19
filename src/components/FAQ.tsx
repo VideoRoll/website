@@ -21,43 +21,27 @@ export const FAQ = () => (
           <div className="mb-11 flex flex-wrap -m-1">
             <div className="w-full p-1">
               <FAQBox
-                title="Do you provide any free plan?"
-                content="Lorem ipsum dolor sit amet, to the consectr adipiscing elit.
-              Volutpat tempor to the condi mentum vitae vel purus. Lorem ipsum
-              dolor sit amet, to the consectr adipiscing elit. Volutpat tempor to
-              the condi mentum vitae vel purus. Lorem ipsum dolor sit amet, to the
-              consectr adipiscing elit. Volutpat tempor to the condi mentum vitae
-              vel purus."
+                title="Why didn't it work?"
+                content="First of all, you need to notice that Video Roll will do nothing when a page has not loaded yet. Please check the badge of the extension icon, only if it appears to be greater than one. The number represents the identified video element of the current page. If everything is right, please refresh the page and try again."
                 defaultOpen
               />
             </div>
             <div className="w-full p-1">
               <FAQBox
-                title="How to claim your 25% discount offer?"
-                content="Lorem ipsum dolor sit amet, to the consectr adipiscing elit.
-              Volutpat tempor to the condi mentum vitae vel purus. Lorem
-              ipsum dolor sit amet, to the consectr adipiscing elit.
-              Volutpat tempor to the condi mentum vitae vel purus."
+                title="Why shortcut key is invalid?"
+                content="You must active the extension at first, then shortcut key will be prapared. You can click the extension icon or go to chrome://extensions/shortcuts to set it."
               />
             </div>
             <div className="w-full p-1">
               <FAQBox
-                title="What&rsquo;s your refund policy?"
-                content="Lorem ipsum dolor sit amet, to the consectr adipiscing elit.
-              Volutpat tempor to the condi mentum vitae vel purus."
+                title="Will it steal my information?"
+                content="Absolutely not! Video Roll is a little guy that only focus on how to enhance your video watching experience and it's completely open source. If you are still worried about it, you can go check its code. It won't even make any requests!"
               />
             </div>
             <div className="w-full p-1">
               <FAQBox
-                title="How to get support for the product?"
-                content=" Lorem ipsum dolor sit amet, to the consectr adipiscing elit.
-              Volutpat tempor to the condi mentum vitae vel purus. Lorem
-              ipsum dolor sit amet, to the consectr adipiscing elit.
-              Volutpat tempor to the condi mentum vitae vel purus. Lorem
-              ipsum dolor sit amet, to the consectr adipiscing elit.
-              Volutpat tempor to the condi mentum vitae vel purus. Lorem
-              ipsum dolor sit amet, to the consectr adipiscing elit.
-              Volutpat tempor to the condi mentum vitae vel purus."
+                title="How to contribute?"
+                content="First of all, if you've read this far, thank you very much. You can make a donation to me, any donation amount is appreciated. Also you can ask questions or contribute code on github."
               />
             </div>
           </div>
@@ -80,9 +64,8 @@ const FAQBox = ({ defaultOpen, title, content }) => {
           {title}
         </h3>
         <p
-          className={`text-customGrayText pt-4 transition-all duration-300 overflow-hidden ${
-            isOpen ? "max-h-96" : "max-h-0"
-          }`}
+          className={`text-customGrayText pt-4 transition-all duration-300 overflow-hidden ${isOpen ? "max-h-96" : "max-h-0"
+            }`}
         >
           {content}
         </p>
@@ -94,9 +77,8 @@ const FAQBox = ({ defaultOpen, title, content }) => {
           viewBox="0 0 20 20"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className={`transition-all duration-500  ${
-            isOpen ? "rotate-[180deg]" : "rotate-[270deg]"
-          }`}
+          className={`transition-all duration-500  ${isOpen ? "rotate-[180deg]" : "rotate-[270deg]"
+            }`}
         >
           <path
             d="M4.16732 12.5L10.0007 6.66667L15.834 12.5"

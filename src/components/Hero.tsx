@@ -34,7 +34,7 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <div className="xs:w-[150px] xs:h-[150px] md:w-[250px] md:h-[250px] sm:text-base mb-2 md:mt-[100px] mt-16 font-bold">
+          <div className="xs:w-[150px] xs:h-[150px] md:w-[250px] md:h-[250px] sm:text-base mb-2 md:mt-[200px] xs:mt-[200px] sm:mt-[200px] mt-16 font-bold">
             <img src="/logo.png" width="100%" height="100%"></img>
           </div>
         </motion.div>
@@ -92,9 +92,6 @@ export const Hero = () => {
             >
               <GithubIcon></GithubIcon>
             </div>
-            {/* <img src="https://badgen.net/chrome-web-store/users/cokngoholafkeghnhhdlmiadlojpindm?icon=chrome&amp;color=0f9d58" />
-            <img src="https://badgen.net/chrome-web-store/rating/cokngoholafkeghnhhdlmiadlojpindm" />
-            <img src="https://img.shields.io/github/stars/gxy5202/VideoRoll" /> */}
           </div>
         </motion.div>
       </div>

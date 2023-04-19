@@ -29,7 +29,7 @@ export const Features1 = () => {
 								All in one
 							</h2>
 							<p className="mb-10 text-customGrayText leading-loose">
-								Video Roll has a very user-friendly UI and includes powerful features. Optimize your experience when watching videos from sites like YouTube, bilibili, tiktok, dailymotion, pornhub, etc.
+								Video Roll has a very user-friendly UI and includes powerful features. Enhance your experience when watching videos from sites like YouTube, bilibili, tiktok, dailymotion, pornhub, etc.
 							</p>
 							<ul className="mb-6 text-white">
 								{

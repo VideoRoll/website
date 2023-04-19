@@ -18,7 +18,7 @@ export const Footer = () => {
                   Video Roll
                 </div>
               </div>
-              <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
+              {/* <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
                 Dashboard images were made using free Dark Admin dashboard that
                 you can find 
                 <a
@@ -29,8 +29,8 @@ export const Footer = () => {
                 >
                    here.
                 </a>
-              </p>
-              <div className="w-36 mx-auto lg:mx-0">
+              </p> */}
+              {/* <div className="w-36 mx-auto lg:mx-0">
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
                   href="#"
@@ -49,7 +49,7 @@ export const Footer = () => {
                 >
                   <InstagramIcon />
                 </a>
-              </div>
+              </div> */}
             </div>
             <div className="w-full lg:w-2/3  lg:pl-16 hidden lg:flex flex-wrap justify-between">
               <div className="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
@@ -118,23 +118,13 @@ export const Footer = () => {
                 <h3 className="mb-6 text-2xl font-bold text-white">Company</h3>
                 <ul>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
-                      About Us
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
-                      Jobs
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
-                      Press
+                    <a className="text-gray-400 hover:text-gray-300" href="https://github.com/gxy5202" aria-label="" >
+                      About Author
                     </a>
                   </li>
                   <li>
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
-                      Contact Us
+                    <a className="text-gray-400 hover:text-gray-300" aria-label="" >
+                      Contact Us: gxy880520@gmail.com
                     </a>
                   </li>
                 </ul>
@@ -142,7 +132,7 @@ export const Footer = () => {
             </div>
           </div>
           <p className="lg:text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 hidden lg:block">
-            &copy; 2022. MIT license.
+            &copy;Video Roll 2023.
           </p>
         </div>
       </div>
