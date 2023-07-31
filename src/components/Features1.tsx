@@ -7,7 +7,7 @@ import feature4 from "../assets/images/feature4.gif";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
 export const Features1 = () => {
-	const featuresList = ['Support all HTML5 Video', 'Flip(horizontal/vertical)', 'Zoom', 'Move(reposition)', 'Scale(stretch)', 'Rotate 0/90/180/270deg', 'Tune(Pitch)', 'Focus(Turn off the lights)', 'Filter', 'Memory system', 'Support shortcut key', 'Support same-origin iframe', 'Automatically calculates video scaling', 'Respect user privacy']
+	const featuresList = ['Support all HTML5 Video', 'Flip(horizontal/vertical)', 'Zoom', 'Reposition(move)', 'Stretch(scale)', 'Rotate 0/90/180/270deg', 'Tune(Pitch)', 'Focus', 'Filter', 'Memory system', 'Support shortcut key', 'Support same-origin iframe', 'Automatically calculates video scaling', 'Respect user privacy']
 	return (
 		<section
 			className="w-full bg-customDarkBg2 mb-8 sm:mb-16 xl:m pt-[2rem]  md:pt-[12vw] lg:pt-0"
