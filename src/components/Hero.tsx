@@ -55,7 +55,7 @@ export const Hero = () => {
             Easily enhance your video watching experience.
           </div>
           <div className="text-customGrayText mt-2 sm:mt-2 text-xl sm:text-xl lg:text-xl xl:text-xl tracking-wide px-8 sm:px-20 md:px-24 lg:px-24">
-          The choice of over <span className="text-customSecondary font-bold">5,000</span> users 
+          The choice of over <span className="text-customSecondary font-bold">10,000</span> users 
           </div>
         </motion.div>
         <motion.div
