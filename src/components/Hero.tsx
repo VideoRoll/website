@@ -18,10 +18,6 @@ export const Hero = () => {
     window.open('https://addons.mozilla.org/en-US/firefox/addon/videoroll/')
   };
 
-  const toGithub = () => {
-    window.open('https://github.com/VideoRoll/VideoRoll')
-  };
-
   return (
     <section
       className="w-screen h-screen flex justify-center items-center bg-customDarkBg1 mb-[4vw] hero-bg-gradient pb-24 sm:pb-32 md:pb-32 lg:pb-0"
@@ -55,7 +51,7 @@ export const Hero = () => {
             Easily enhance your video watching experience.
           </div>
           <div className="text-customGrayText mt-2 sm:mt-2 text-xl sm:text-xl lg:text-xl xl:text-xl tracking-wide px-8 sm:px-20 md:px-24 lg:px-24">
-          The choice of over <span className="text-customSecondary font-bold">10,000</span> users 
+          The choice of over <span className="text-customSecondary font-bold">10k</span> users 
           </div>
         </motion.div>
         <motion.div
@@ -84,12 +80,6 @@ export const Hero = () => {
             >
               <FirefoxIcon></FirefoxIcon>
               <span className="ml-2">Firefox</span>
-            </div>
-            <div
-              className="w-30 sm:w-30 h-12 p-4 rounded-md font-bold text-white border border-solid  flex justify-center items-center cursor-pointer bg-custom bg-customPrimary hover:bg-customSecondary border-customPrimary transition"
-              onClick={toGithub}
-            >
-              <GithubIcon></GithubIcon>
             </div>
           </div>
         </motion.div>

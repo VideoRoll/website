@@ -7,7 +7,7 @@ import feature4 from "../assets/images/feature4.gif";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
 export const Features1 = () => {
-	const featuresList = ['Support all HTML5 Video', 'Flip(horizontal/vertical)', 'Zoom', 'Reposition(move)', 'Stretch(scale)', 'Rotate 0/90/180/270deg', 'Tune(Pitch)', 'Focus', 'Filter', 'Memory system', 'Support shortcut key', 'Support same-origin iframe', 'Automatically calculates video scaling', 'Respect user privacy']
+	const featuresList = ['Support all HTML5 Video', 'Download', 'Flip(horizontal/vertical)', 'Zoom', 'Reposition', 'Stretch', 'Rotate', 'Tune(Pitch)', 'Volume', 'Playback Speed', 'Focus', 'Filter', 'Cache Site', 'Support shortcut key', 'Support same-origin iframe', 'Automatically calculates video scaling', 'Respect user privacy']
 	return (
 		<section
 			className="w-full bg-customDarkBg2 mb-8 sm:mb-16 xl:m pt-[2rem]  md:pt-[12vw] lg:pt-0"
@@ -26,7 +26,7 @@ export const Features1 = () => {
 								Features
 							</span>
 							<h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-								All in one
+								All-in-one Browser Extension
 							</h2>
 							<p className="mb-10 text-customGrayText leading-loose">
 								Video Roll has a very user-friendly UI and includes powerful features. Enhance your experience when watching videos from sites like YouTube, bilibili, tiktok, dailymotion, pornhub, etc.
